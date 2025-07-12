@@ -100,7 +100,7 @@ nav a:hover {
     display: flex;
     justify-content: center;
     align-items: center;
-
+    object-fit: cover;
     width: 100%;
     height: 292px;
 
@@ -199,6 +199,7 @@ nav a:hover {
 .last1 img {
     height: 260px;
     padding-inline: 50px;
+    object-fit: cover;
 }
 
 .textl {
@@ -212,8 +213,8 @@ nav a:hover {
     /* border: 2px solid black; */
 }
 
-.textl button{
-     font-family: "Poppins", sans-serif !important;
+.textl button {
+    font-family: "Poppins", sans-serif !important;
     height: 39px;
     width: 99px;
     margin-top: 10px;
@@ -257,8 +258,8 @@ nav a:hover {
     color: #FFD166;
 }
 
-.t1 p{
-      font-family: "Poppins", sans-serif;
+.t1 p {
+    font-family: "Poppins", sans-serif;
 
 }
 
@@ -283,4 +284,8 @@ nav a:hover {
 
 .icon a:hover {
     color: #FFD166;
+}
+
+.c2 img:hover {
+    background-image: url('./Image/After.png');
 }
